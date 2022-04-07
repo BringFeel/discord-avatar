@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-# discord-avatar
+discord-avatar
 </div>
 
 # ENGLISH
