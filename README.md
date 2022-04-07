@@ -19,7 +19,7 @@ A simple utility to display a member's avatar in an embedded message.
 Supports only discord.js@^13.6.0 (master).
 
 # Installation
-* `npm install discord.js-avatar`
+* `npm install discord-avatar`
 
 # Usage
 __Basic Bot Example__
@@ -34,7 +34,7 @@ avatarEmbed(message, language = 'english');
 // And voila now you have an avatar command with embeds!
 ```
 # Preview
-![Demo](https://i.imgur.com/CHRAjXu.png)
+![Demo](https://cdn.discordapp.com/attachments/925901646914011199/961769121438105620/unknown.png)
 
 # SPANISH
 Una sencilla utilidad para mostrar el avatar de un miembro en un mensaje embebecido.
@@ -46,7 +46,7 @@ Una sencilla utilidad para mostrar el avatar de un miembro en un mensaje embebec
 Solo admite discord.js@^13.6.0 (master).
 
 # Instalación
-* `npm install discord.js-avatar`
+* `npm install discord-avatar`
 
 # Uso
 __Ejemplo de bot básico__
@@ -61,4 +61,4 @@ avatarEmbed(message, language = 'spanish');
 // Y listo ahora tienes un comando de avatar con embeds!
 ```
 # Vista previa
-![Demo](https://i.imgur.com/OFnh5NK.png)
+![Demo](https://cdn.discordapp.com/attachments/925901646914011199/961769121438105620/unknown.png)
