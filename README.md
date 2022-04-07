@@ -1,12 +1,10 @@
+
 <div align="center">
+  <h1>discord-avatar</h1>
   <p>
     <a href="https://nodei.co/npm/discord-avatar
 /"><img src="https://nodei.co/npm/discord-avatar.png?downloads=true&stars=true" alt="NPM info" /></a>
   </p>
-</div>
-
-<div align="center">
-discord-avatar
 </div>
 
 # ENGLISH
