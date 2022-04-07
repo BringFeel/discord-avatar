@@ -1,0 +1,20 @@
+{
+  "name": "discord-avatar",
+  "version": "1.0.0",
+  "description": "A simple utility to display a member's avatar in an embedded message.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BringFeel/discord-avatar.git"
+  },
+  "keywords": [],
+  "author": "BringFeel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BringFeel/discord-avatar/issues"
+  },
+  "homepage": "https://github.com/BringFeel/discord-avatar#readme"
+}
