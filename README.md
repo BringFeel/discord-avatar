@@ -1,6 +1,11 @@
 
 <div align="center">
   <h1>discord-avatar</h1>
+  
+  <b>ENG</b> This is an updated version of discord.js v13 and improved from [discord.js-avatar](https://www.npmjs.com/package/discord.js-avatar)
+  
+  <b>ES</b> Esta es una versión actualizada a discord.js v13 y mejorada de [discord.js-avatar](https://www.npmjs.com/package/discord.js-avatar)
+  
   <p>
     <a href="https://nodei.co/npm/discord-avatar
 /"><img src="https://nodei.co/npm/discord-avatar.png?downloads=true&stars=true" alt="NPM info" /></a>
