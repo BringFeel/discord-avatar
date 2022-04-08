@@ -1,4 +1,3 @@
-
 <div align="center">
   <h1>discord-avatar</h1>
   
@@ -33,13 +32,27 @@ Supports only discord.js@^13.6.0 (master).
 __Basic Bot Example__
 
 ```js
-// Import the discord.js-avatgar package.
+// Import the discord-avatar package.
 const avatarEmbed = require('discord-avatar');
 
 // Call the avatarEmbed method, only the first argument is required.
 // * language: Language in which the embedded message will be sent.
 avatarEmbed(message, language = 'english');
 // And voila now you have an avatar command with embeds!
+```
+```js
+// Import the discord-avatar package.
+const avatarEmbed = require('discord-avatar');
+
+module.exports = {
+    name: 'avatar',
+
+    execute(message) {
+// Call the avatarEmbed method, only the first argument is required.
+// * language: Language in which the embedded message will be sent.
+        avatarEmbed(message, language = 'spanish');
+    }
+};
 ```
 # Preview
 ![Demo](https://cdn.discordapp.com/attachments/925901646914011199/961769121438105620/unknown.png)
@@ -60,13 +73,27 @@ Solo admite discord.js@^13.6.0 (master).
 __Ejemplo de bot básico__
 
 ```js
-// Importar el paquete discord.js-avatar.
+// Importar el paquete discord-avatar.
 const avatarEmbed = require('discord-avatar');
 
 // Llama al método avatarEmbed, se requiere solo el primer argumento.
 // * language: Idioma en el que se enviará el mensaje embebecido.
 avatarEmbed(message, language = 'spanish');
 // Y listo ahora tienes un comando de avatar con embeds!
+```
+```js
+// Importar el paquete discord-avatar.
+const avatarEmbed = require('discord-avatar');
+
+module.exports = {
+    name: 'avatar',
+
+    execute(message) {
+// Llama al método avatarEmbed, se requiere solo el primer argumento.
+// * language: Idioma en el que se enviará el mensaje embebecido.
+        avatarEmbed(message, language = 'spanish');
+    }
+};
 ```
 # Vista previa
 ![Demo](https://cdn.discordapp.com/attachments/925901646914011199/961769121438105620/unknown.png)
