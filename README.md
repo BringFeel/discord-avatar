@@ -10,6 +10,11 @@
     <a href="https://nodei.co/npm/discord-avatar
 /"><img src="https://nodei.co/npm/discord-avatar.png?downloads=true&stars=true" alt="NPM info" /></a>
   </p>
+  
+  [![Downloads](https://img.shields.io/github/downloads/BringFeel/discord-avatar/total)](https://github.com/BringFeel/discord-avatar/releases/latest)
+  [![Stars](https://img.shields.io/github/stars/BringFeel/discord-avatar)](https://github.com/BringFeel/discord-avatar/stargazers)
+  [![Release](https://img.shields.io/github/v/release/BringFeel/discord-avatar)](https://github.com/BringFeel/discord-avatar/releases/tag/1.0.5)
+  [![Discord](https://discordapp.com/api/guilds/952035654831845457/widget.png)](https://discord.bringfeel.com)</br>
 </div>
 
 # ENGLISH
