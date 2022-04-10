@@ -13,7 +13,7 @@
   
   [![Downloads](https://img.shields.io/github/downloads/BringFeel/discord-avatar/total)](https://github.com/BringFeel/discord-avatar/releases/latest)
   [![Stars](https://img.shields.io/github/stars/BringFeel/discord-avatar)](https://github.com/BringFeel/discord-avatar/stargazers)
-  [![Release](https://img.shields.io/github/v/release/BringFeel/discord-avatar)](https://github.com/BringFeel/discord-avatar/releases/tag/1.0.5)
+  [![Release](https://img.shields.io/github/v/release/BringFeel/discord-avatar)](https://github.com/BringFeel/discord-avatar/releases/latest)
   [![Discord](https://discordapp.com/api/guilds/952035654831845457/widget.png)](https://discord.bringfeel.com)</br>
 </div>
 
@@ -22,7 +22,16 @@ A simple utility to display a member's avatar in an embedded message.
 
 * By default it supports 5 languages, more can be added.
 * Supported languages: English, Spanish, Portuguese, Russian, Chinese.
-* The color of the embed can be changed in future updates.
+* The color of the embed is assigned by the color of the role
+
+  If you want to change it go to ```node_modules/discord-avatar/index.js``` and change
+  
+  ```js
+  .setColor(message.guild.me.displayHexColor)
+   ↓
+  .setColor("Your Color")
+  ```
+  Colors: [htmlcolorcodes.com](https://htmlcolorcodes.com)
 
 Supports only discord.js@^13.6.0 (master).
 
@@ -51,7 +60,7 @@ module.exports = {
     execute(message) {
 // Call the avatarEmbed method, only the first argument is required.
 // * language: Language in which the embedded message will be sent.
-        avatarEmbed(message, language = 'spanish');
+        avatarEmbed(message, language = 'english');
     }
 };
 ```
@@ -63,7 +72,16 @@ Una sencilla utilidad para mostrar el avatar de un miembro en un mensaje embebec
 
 * Por defecto se soporta 5 idiomas, se pueden agregar más.
 * Idiomas soportados: Inglés, Español, Portugués, Ruso y Chino
-* El color del embed se podrá cambiar en futuras actualizaciones.
+* El color del embed se asigna mediante el color del rol
+
+  Si desea cambiarlo vaya a ```node_modules/discord-avatar/index.js``` y cambie
+  
+  ```js
+  .setColor(message.guild.me.displayHexColor)
+   ↓
+  .setColor("Tu Color")
+  ```
+  Colores: [htmlcolorcodes.com](https://htmlcolorcodes.com)
 
 Solo admite discord.js@^13.6.0 (master).
 
