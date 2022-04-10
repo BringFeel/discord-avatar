@@ -11,10 +11,10 @@
 /"><img src="https://nodei.co/npm/discord-avatar.png?downloads=true&stars=true" alt="NPM info" /></a>
   </p>
   
-  [![Downloads](https://img.shields.io/github/downloads/BringFeel/discord-avatar/total)](https://github.com/BringFeel/discord-avatar/releases/latest)
-  [![Stars](https://img.shields.io/github/stars/BringFeel/discord-avatar)](https://github.com/BringFeel/discord-avatar/stargazers)
-  [![Release](https://img.shields.io/github/v/release/BringFeel/discord-avatar)](https://github.com/BringFeel/discord-avatar/releases/latest)
-  [![Discord](https://discordapp.com/api/guilds/952035654831845457/widget.png)](https://discord.bringfeel.com)</br>
+  [![Downloads](https://img.shields.io/github/downloads/BringFeel/discord-avatar/total?style=for-the-badge)](https://github.com/BringFeel/discord-avatar/releases/latest)
+  [![Stars](https://img.shields.io/github/stars/BringFeel/discord-avatar?style=for-the-badge)](https://github.com/BringFeel/discord-avatar/stargazers)
+  [![Release](https://img.shields.io/github/v/release/BringFeel/discord-avatar?style=for-the-badge)](https://github.com/BringFeel/discord-avatar/releases/latest)
+  [![Discord](https://img.shields.io/discord/952035654831845457?color=%237289DA&style=for-the-badge)](https://discord.bringfeel.com)</br>
 </div>
 
 # ENGLISH
