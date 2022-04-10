@@ -34,7 +34,7 @@ const avatarEmbed = (message, language = 'english') => {
     const Embed = new MessageEmbed()
         .setTitle(embedTitle)
         .setDescription(`[${currentLang.AVATAR_URL}](${avatarURL})`)
-        .setColor('RANDOM')
+        .setColor(message.guild.me.displayHexColor)
         .setImage(avatarURL)
         .setFooter(embedFooter, `${message.author.displayAvatarURL({
             size: 4096,
