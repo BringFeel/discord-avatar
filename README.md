@@ -1,5 +1,6 @@
 <div align="center">
-  <h1>discord-avatar</h1>
+  
+![](https://github.com/BringFeel/discord-avatar/blob/main/discord-avatar-logo.png "Discord Avatar Logo")
   
   <b>ENG</b> This is an updated version of discord.js v13 and improved from [discord.js-avatar](https://www.npmjs.com/package/discord.js-avatar)
   
