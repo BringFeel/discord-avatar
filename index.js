@@ -36,10 +36,10 @@ const avatarEmbed = (message, language = 'english') => {
         .setDescription(`[${currentLang.AVATAR_URL}](${avatarURL})`)
         .setColor(message.guild.me.displayHexColor)
         .setImage(avatarURL)
-        .setFooter(embedFooter, `${message.author.displayAvatarURL({
-            size: 4096,
-            dynamic: true
-        })}`);
+        .setFooter({
+                text: `${embedFooter}`,
+                iconURL: `${avatarURL}`,
+                })
         const link = new MessageActionRow()
             .addComponents(
                 new MessageButton()
