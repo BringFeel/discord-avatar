@@ -1,54 +1,44 @@
-const { MessageEmbed, MessageActionRow, MessageButton } = require('discord.js');
+const { MessageEmbed, MessageActionRow, MessageButton } = require("discord.js");
 
-const avatarEmbed = (message, language = 'english') => {
+const avatarEmbed = (message, language = "english") => {
+  if (!message && !message.channel)
+    throw new Error(`The channel is inaccessible.`);
 
-    if (!message && !message.channel)
-        throw new Error(`The channel is inaccessible.`);
+  const validLangs = ["english", "spanish", "portuguese", "russian", "chinese", "german"];
 
-    const validLangs = [
-        "english",
-        "spanish",
-        "portuguese",
-        "russian",
-        "chinese"
-    ];
+  if (!validLangs.includes(language))
+    throw new Error(`Invalid language. [${language}]`);
 
-    if (!validLangs.includes(language))
-        throw new Error(`Invalid language. [${language}]`);
-        
-    const currentLang = require(`./Languages/${language}.json`);
+  const currentLang = require(`./Languages/${language}.json`);
 
-    let target = message.mentions.users.first();
+  let target = message.mentions.users.first();
 
-    if (!target)
-        target = message.author;
+  if (!target) target = message.author;
 
-    let avatarURL = target.displayAvatarURL({
-        size: 4096,
-        dynamic: true
+  let avatarURL = target.displayAvatarURL({
+    size: 4096,
+    dynamic: true,
+  });
+
+  const embedTitle = currentLang.AVATAR_OF.replace("%user", target.username);
+  const embedFooter = currentLang.ASKED_BY.replace("%user", message.author.tag);
+
+  const Embed = new MessageEmbed()
+    .setTitle(embedTitle)
+    .setDescription(`[${currentLang.AVATAR_URL}](${avatarURL})`)
+    .setColor(message.guild.me.displayHexColor)
+    .setImage(avatarURL)
+    .setFooter({
+      text: `${embedFooter}`,
+      iconURL: `${avatarURL}`,
     });
-
-    const embedTitle = currentLang.AVATAR_OF.replace('%user', target.username);
-    const embedFooter = currentLang.ASKED_BY.replace('%user', message.author.tag);
-
-    const Embed = new MessageEmbed()
-        .setTitle(embedTitle)
-        .setDescription(`[${currentLang.AVATAR_URL}](${avatarURL})`)
-        .setColor(message.guild.me.displayHexColor)
-        .setImage(avatarURL)
-        .setFooter({
-                text: `${embedFooter}`,
-                iconURL: `${avatarURL}`,
-                })
-        const link = new MessageActionRow()
-            .addComponents(
-                new MessageButton()
-                    .setURL(`${avatarURL}`)
-                    .setLabel(`${currentLang.AVATAR_URL}`)
-                    .setStyle('LINK'),
-            );
-        message.channel.send({ embeds: [Embed], components: [link] });
-
-}
+  const link = new MessageActionRow().addComponents(
+    new MessageButton()
+      .setURL(`${avatarURL}`)
+      .setLabel(`${currentLang.AVATAR_URL}`)
+      .setStyle("LINK")
+  );
+  message.channel.send({ embeds: [Embed], components: [link] });
+};
 
 module.exports = avatarEmbed;
