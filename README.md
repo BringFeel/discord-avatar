@@ -22,7 +22,7 @@
 A simple utility to display a member's avatar in an embedded message.
 
 * By default it supports 5 languages, more can be added.
-* Supported languages: English, Spanish, Portuguese, Russian, Chinese.
+* Supported languages: English, Spanish, Portuguese, Russian, Chinese, German.
 * The color of the embed is assigned by the color of the role
 
   If you want to change it go to ```node_modules/discord-avatar/index.js``` and change
@@ -72,7 +72,7 @@ module.exports = {
 Una sencilla utilidad para mostrar el avatar de un miembro en un mensaje embebecido.
 
 * Por defecto se soporta 5 idiomas, se pueden agregar más.
-* Idiomas soportados: Inglés, Español, Portugués, Ruso y Chino
+* Idiomas soportados: Inglés, Español, Portugués, Ruso, Chino y Alemán
 * El color del embed se asigna mediante el color del rol
 
   Si desea cambiarlo vaya a ```node_modules/discord-avatar/index.js``` y cambie
