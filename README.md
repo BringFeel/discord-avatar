@@ -14,7 +14,7 @@
   [![Downloads](https://img.shields.io/github/downloads/BringFeel/discord-avatar/total?style=for-the-badge)](https://github.com/BringFeel/discord-avatar/releases/latest)
   [![Stars](https://img.shields.io/github/stars/BringFeel/discord-avatar?style=for-the-badge)](https://github.com/BringFeel/discord-avatar/stargazers)
   [![Release](https://img.shields.io/github/v/release/BringFeel/discord-avatar?style=for-the-badge)](https://github.com/BringFeel/discord-avatar/releases/latest)
-  [![Discord](https://img.shields.io/discord/952035654831845457?color=%237289DA&style=for-the-badge)](https://discord.bringfeel.com)
+  [![Discord](https://img.shields.io/discord/952035654831845457?color=%237289DA&style=for-the-badge)](https://discord.bringfeel.com.ar)
   [![NpmDownloads](https://img.shields.io/npm/dt/discord-avatar?color=FF0000&style=for-the-badge)](https://www.npmjs.com/package/discord-avatar)</br>
 </div>
 
